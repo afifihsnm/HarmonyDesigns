@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            © {new Date().getFullYear()} Harmony Designs. All rights reserved.
+            © {new Date().getFullYear()} Harmony Designs. All rights reserved. Created by Afif Ihsan Maulana
           </p>
         </div>
       </div>
