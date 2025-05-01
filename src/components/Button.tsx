@@ -4,7 +4,13 @@
  * with a small offset from the top for better visual placement.
  */
 
-export default function Button({ text, className, id }) {
+type ButtonProps = {
+  text: string;
+  className?: string;
+  id?: string;
+};
+
+export default function Button({ text, className, id }: ButtonProps) {
   return (
     <a
       onClick={(e) => {
