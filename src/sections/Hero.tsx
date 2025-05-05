@@ -1,9 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import AnimatedCounter from "../components/AnimatedCounter";
+import AnimatedCounter from "../components/AnimatedCounter.tsx";
 import Button from "../components/Button";
 import { words } from "../constants/data.ts";
 import HeroExperience from "../components/models/hero_models/HeroExperience.js";
