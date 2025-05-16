@@ -1,55 +1,48 @@
-# React + TypeScript + Vite
+# 🏠 3D Interior Design Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An immersive landing page for a **3D Interior Design Company**, built with **Three.js**, **GSAP** and **React**.  
+This interactive experience showcases beautifully modeled 3D interior rooms with smooth transitions and responsive design.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🛋️ Interactive 3D room models rendered with **Three.js**
+- 🚀 Scroll-triggered animations powered by **GSAP**
+- ⚡ Optimized GLTF model loading for performance
+- 🎯 Responsive layout across all devices
+- 🌐 Deployed on **Vercel** for fast global access
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [Three.js](https://threejs.org/) – 3D graphics rendering
+- [React](https://reactjs.org/) – UI framework
+- [GSAP](https://gsap.com) – High-performance animations
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📸 Screenshots
+![Image](https://github.com/user-attachments/assets/820508ac-21d0-4530-ab22-7ee70ccb0931)
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/interior-3d-landing.git
+cd interior-3d-landing
+
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
-# 3d-landing-page
+Visit [http://localhost:3000](http://localhost:3000) to view the landing page.
